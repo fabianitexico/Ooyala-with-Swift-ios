@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAF7066D1B4486CB009E7E59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7066C1B4486CB009E7E59 /* AppDelegate.swift */; };
+		AAF7066F1B4486CB009E7E59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7066E1B4486CB009E7E59 /* ViewController.swift */; };
+		AAF706721B4486CB009E7E59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF706701B4486CB009E7E59 /* Main.storyboard */; };
+		AAF706741B4486CB009E7E59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF706731B4486CB009E7E59 /* Images.xcassets */; };
+		AAF706771B4486CB009E7E59 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF706751B4486CB009E7E59 /* LaunchScreen.xib */; };
+		AAF706831B4486CB009E7E59 /* OoyalaSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF706821B4486CB009E7E59 /* OoyalaSwiftTests.swift */; };
+		AAF7068D1B448C4E009E7E59 /* OoyalaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF7068C1B448C4E009E7E59 /* OoyalaSDK.framework */; };
+		AAF706911B4492FB009E7E59 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF706901B4492FB009E7E59 /* AVFoundation.framework */; };
+		AAF706931B449307009E7E59 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF706921B449307009E7E59 /* CFNetwork.framework */; };
+		AAF706951B449310009E7E59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF706941B449310009E7E59 /* CoreGraphics.framework */; };
+		AAF706971B44931A009E7E59 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF706961B44931A009E7E59 /* CoreMedia.framework */; };
+		AAF706991B449325009E7E59 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF706981B449325009E7E59 /* CoreText.framework */; };
+		AAF7069B1B449366009E7E59 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF7069A1B449366009E7E59 /* libxml2.dylib */; };
+		AAF7069D1B449379009E7E59 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF7069C1B449379009E7E59 /* libc++.dylib */; };
+		AAF7069F1B449383009E7E59 /* MediaAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF7069E1B449383009E7E59 /* MediaAccessibility.framework */; };
+		AAF706A11B44938C009E7E59 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF706A01B44938C009E7E59 /* MediaPlayer.framework */; };
+		AAF706A31B449397009E7E59 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF706A21B449397009E7E59 /* QuartzCore.framework */; };
+		AAF706A51B4493A1009E7E59 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF706A41B4493A1009E7E59 /* Security.framework */; };
+		AAF706A71B4493C7009E7E59 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF706A61B4493C7009E7E59 /* SystemConfiguration.framework */; };
+		AAF706A91B4493D1009E7E59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF706A81B4493D1009E7E59 /* UIKit.framework */; };
+		AAF706AB1B4493DD009E7E59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF706AA1B4493DD009E7E59 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAF7067D1B4486CB009E7E59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAF7065F1B4486CB009E7E59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAF706661B4486CB009E7E59;
+			remoteInfo = OoyalaSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA22CD7C1B45876D00D08B31 /* Bridge-OoyalaHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-OoyalaHeader.h"; sourceTree = "<group>"; };
+		AAF706671B4486CB009E7E59 /* OoyalaSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OoyalaSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF7066B1B4486CB009E7E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF7066C1B4486CB009E7E59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAF7066E1B4486CB009E7E59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAF706711B4486CB009E7E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAF706731B4486CB009E7E59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AAF706761B4486CB009E7E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AAF7067C1B4486CB009E7E59 /* OoyalaSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OoyalaSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF706811B4486CB009E7E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF706821B4486CB009E7E59 /* OoyalaSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OoyalaSwiftTests.swift; sourceTree = "<group>"; };
+		AAF7068C1B448C4E009E7E59 /* OoyalaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OoyalaSDK.framework; sourceTree = "<group>"; };
+		AAF706901B4492FB009E7E59 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AAF706921B449307009E7E59 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AAF706941B449310009E7E59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AAF706961B44931A009E7E59 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		AAF706981B449325009E7E59 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		AAF7069A1B449366009E7E59 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		AAF7069C1B449379009E7E59 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		AAF7069E1B449383009E7E59 /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
+		AAF706A01B44938C009E7E59 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		AAF706A21B449397009E7E59 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AAF706A41B4493A1009E7E59 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AAF706A61B4493C7009E7E59 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AAF706A81B4493D1009E7E59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AAF706AA1B4493DD009E7E59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAF706641B4486CB009E7E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF706AB1B4493DD009E7E59 /* Foundation.framework in Frameworks */,
+				AAF706A91B4493D1009E7E59 /* UIKit.framework in Frameworks */,
+				AAF706A71B4493C7009E7E59 /* SystemConfiguration.framework in Frameworks */,
+				AAF706A51B4493A1009E7E59 /* Security.framework in Frameworks */,
+				AAF706A31B449397009E7E59 /* QuartzCore.framework in Frameworks */,
+				AAF706A11B44938C009E7E59 /* MediaPlayer.framework in Frameworks */,
+				AAF7069F1B449383009E7E59 /* MediaAccessibility.framework in Frameworks */,
+				AAF7069D1B449379009E7E59 /* libc++.dylib in Frameworks */,
+				AAF7069B1B449366009E7E59 /* libxml2.dylib in Frameworks */,
+				AAF706991B449325009E7E59 /* CoreText.framework in Frameworks */,
+				AAF706971B44931A009E7E59 /* CoreMedia.framework in Frameworks */,
+				AAF706951B449310009E7E59 /* CoreGraphics.framework in Frameworks */,
+				AAF706931B449307009E7E59 /* CFNetwork.framework in Frameworks */,
+				AAF706911B4492FB009E7E59 /* AVFoundation.framework in Frameworks */,
+				AAF7068D1B448C4E009E7E59 /* OoyalaSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF706791B4486CB009E7E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAF7065E1B4486CB009E7E59 = {
+			isa = PBXGroup;
+			children = (
+				AAF7068F1B448C68009E7E59 /* Frameworks */,
+				AAF706691B4486CB009E7E59 /* OoyalaSwift */,
+				AAF7067F1B4486CB009E7E59 /* OoyalaSwiftTests */,
+				AAF706681B4486CB009E7E59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAF706681B4486CB009E7E59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAF706671B4486CB009E7E59 /* OoyalaSwift.app */,
+				AAF7067C1B4486CB009E7E59 /* OoyalaSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAF706691B4486CB009E7E59 /* OoyalaSwift */ = {
+			isa = PBXGroup;
+			children = (
+				AAF7066C1B4486CB009E7E59 /* AppDelegate.swift */,
+				AAF7066E1B4486CB009E7E59 /* ViewController.swift */,
+				AAF706701B4486CB009E7E59 /* Main.storyboard */,
+				AAF706731B4486CB009E7E59 /* Images.xcassets */,
+				AAF706751B4486CB009E7E59 /* LaunchScreen.xib */,
+				AAF7066A1B4486CB009E7E59 /* Supporting Files */,
+				AA22CD7C1B45876D00D08B31 /* Bridge-OoyalaHeader.h */,
+			);
+			path = OoyalaSwift;
+			sourceTree = "<group>";
+		};
+		AAF7066A1B4486CB009E7E59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAF7066B1B4486CB009E7E59 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAF7067F1B4486CB009E7E59 /* OoyalaSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAF706821B4486CB009E7E59 /* OoyalaSwiftTests.swift */,
+				AAF706801B4486CB009E7E59 /* Supporting Files */,
+			);
+			path = OoyalaSwiftTests;
+			sourceTree = "<group>";
+		};
+		AAF706801B4486CB009E7E59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAF706811B4486CB009E7E59 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAF7068F1B448C68009E7E59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAF706AA1B4493DD009E7E59 /* Foundation.framework */,
+				AAF706A81B4493D1009E7E59 /* UIKit.framework */,
+				AAF706A61B4493C7009E7E59 /* SystemConfiguration.framework */,
+				AAF706A41B4493A1009E7E59 /* Security.framework */,
+				AAF706A21B449397009E7E59 /* QuartzCore.framework */,
+				AAF706A01B44938C009E7E59 /* MediaPlayer.framework */,
+				AAF7069E1B449383009E7E59 /* MediaAccessibility.framework */,
+				AAF7069C1B449379009E7E59 /* libc++.dylib */,
+				AAF7069A1B449366009E7E59 /* libxml2.dylib */,
+				AAF706981B449325009E7E59 /* CoreText.framework */,
+				AAF706961B44931A009E7E59 /* CoreMedia.framework */,
+				AAF706941B449310009E7E59 /* CoreGraphics.framework */,
+				AAF706921B449307009E7E59 /* CFNetwork.framework */,
+				AAF706901B4492FB009E7E59 /* AVFoundation.framework */,
+				AAF7068C1B448C4E009E7E59 /* OoyalaSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAF706661B4486CB009E7E59 /* OoyalaSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAF706861B4486CB009E7E59 /* Build configuration list for PBXNativeTarget "OoyalaSwift" */;
+			buildPhases = (
+				AAF706631B4486CB009E7E59 /* Sources */,
+				AAF706641B4486CB009E7E59 /* Frameworks */,
+				AAF706651B4486CB009E7E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OoyalaSwift;
+			productName = OoyalaSwift;
+			productReference = AAF706671B4486CB009E7E59 /* OoyalaSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAF7067B1B4486CB009E7E59 /* OoyalaSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAF706891B4486CB009E7E59 /* Build configuration list for PBXNativeTarget "OoyalaSwiftTests" */;
+			buildPhases = (
+				AAF706781B4486CB009E7E59 /* Sources */,
+				AAF706791B4486CB009E7E59 /* Frameworks */,
+				AAF7067A1B4486CB009E7E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAF7067E1B4486CB009E7E59 /* PBXTargetDependency */,
+			);
+			name = OoyalaSwiftTests;
+			productName = OoyalaSwiftTests;
+			productReference = AAF7067C1B4486CB009E7E59 /* OoyalaSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAF7065F1B4486CB009E7E59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Developer II";
+				TargetAttributes = {
+					AAF706661B4486CB009E7E59 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					AAF7067B1B4486CB009E7E59 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = AAF706661B4486CB009E7E59;
+					};
+				};
+			};
+			buildConfigurationList = AAF706621B4486CB009E7E59 /* Build configuration list for PBXProject "OoyalaSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAF7065E1B4486CB009E7E59;
+			productRefGroup = AAF706681B4486CB009E7E59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAF706661B4486CB009E7E59 /* OoyalaSwift */,
+				AAF7067B1B4486CB009E7E59 /* OoyalaSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAF706651B4486CB009E7E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF706721B4486CB009E7E59 /* Main.storyboard in Resources */,
+				AAF706771B4486CB009E7E59 /* LaunchScreen.xib in Resources */,
+				AAF706741B4486CB009E7E59 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF7067A1B4486CB009E7E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAF706631B4486CB009E7E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF7066F1B4486CB009E7E59 /* ViewController.swift in Sources */,
+				AAF7066D1B4486CB009E7E59 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF706781B4486CB009E7E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF706831B4486CB009E7E59 /* OoyalaSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAF7067E1B4486CB009E7E59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAF706661B4486CB009E7E59 /* OoyalaSwift */;
+			targetProxy = AAF7067D1B4486CB009E7E59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAF706701B4486CB009E7E59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAF706711B4486CB009E7E59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAF706751B4486CB009E7E59 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAF706761B4486CB009E7E59 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAF706841B4486CB009E7E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAF706851B4486CB009E7E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAF706871B4486CB009E7E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = OoyalaSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OoyalaSwift/Bridge-OoyalaHeader.h";
+			};
+			name = Debug;
+		};
+		AAF706881B4486CB009E7E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = OoyalaSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OoyalaSwift/Bridge-OoyalaHeader.h";
+			};
+			name = Release;
+		};
+		AAF7068A1B4486CB009E7E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OoyalaSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OoyalaSwift.app/OoyalaSwift";
+			};
+			name = Debug;
+		};
+		AAF7068B1B4486CB009E7E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OoyalaSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OoyalaSwift.app/OoyalaSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAF706621B4486CB009E7E59 /* Build configuration list for PBXProject "OoyalaSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF706841B4486CB009E7E59 /* Debug */,
+				AAF706851B4486CB009E7E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAF706861B4486CB009E7E59 /* Build configuration list for PBXNativeTarget "OoyalaSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF706871B4486CB009E7E59 /* Debug */,
+				AAF706881B4486CB009E7E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAF706891B4486CB009E7E59 /* Build configuration list for PBXNativeTarget "OoyalaSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF7068A1B4486CB009E7E59 /* Debug */,
+				AAF7068B1B4486CB009E7E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAF7065F1B4486CB009E7E59 /* Project object */;
+}
